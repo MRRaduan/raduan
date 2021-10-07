@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/Image";
 import * as S from "./styled";
 
 const Hero = () => {
