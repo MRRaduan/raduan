@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Image from 'next/image'
 import media from "styled-media-query"
 import theme from "../../styles/theme"
 
@@ -49,4 +50,10 @@ export const ComingSoon = styled.p`
   ${media.greaterThan("medium")`
     font-size: 32px;
   `}
+`;
+
+export const HeroImage = styled(Image)`
+  position: absolute;
+  top: 0;
+  right:0;
 `;

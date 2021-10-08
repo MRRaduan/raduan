@@ -11,9 +11,79 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;1,300;1,600&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet" />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSans/IBMPlexSans-Regular.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSans/IBMPlexSans-Italic.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSans/IBMPlexSans-Light.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSans/IBMPlexSans-LightItalic.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSans/IBMPlexSans-Bold.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSans/IBMPlexSans-BoldItalic.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSerif/IBMPlexSerif-Regular.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSerif/IBMPlexSerif-Italic.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSerif/IBMPlexSerif-Light.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSerif/IBMPlexSerif-LightItalic.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSerif/IBMPlexSerif-Bold.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/IBMPlexSerif/IBMPlexSerif-BoldItalic.ttf"
+          as="font"
+          crossOrigin=""
+        />
+
       </Head>
       <Cursor />
       <S.LayoutGradient>
